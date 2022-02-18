@@ -1,0 +1,61 @@
+
+body{
+    background-color: aliceblue;
+}
+
+.demo{
+    border: solid 1px;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.gauche{
+  
+    border: solid 1px;
+    padding: 6rem;
+    width: 20%;
+    height: 30vh;
+    background-color: white;
+    margin: 2rem;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.droite{
+    border: solid 1px;
+    padding: 6rem;
+    width: 20%;
+    height: 30vh;
+    background-color: white;
+    margin: 2rem; 
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+button{
+    margin: 2rem;
+    padding: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin: 2rem;
+    font-size: 30px;
+      
+}
+a:hover{
+    background-color: aliceblue;
+}
+
+.gauche a.active{
+    background-color: blue;
+}
