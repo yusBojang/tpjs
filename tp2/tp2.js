@@ -3,7 +3,7 @@ const btn1 = document.getElementById('btn1')
 const btn2 = document.getElementById('btn2')
 const gauche = document.getElementById('gauche')
 const droite = document.getElementById('droite')
-const a = document.querySelectorAll('a')
+
 var tab = [
     'mon premier',
     'mon deuxieme',
@@ -11,29 +11,30 @@ var tab = [
     'mon quatrieme',
 ]
 
+for(let i = 0 ; i<tab.length;i++){
+    const a = document.createElement('a')
+    a.setAttribute('href','#')
+    a.innerHTML = tab[i]
+    gauche.appendChild(a)
+
+   
+}
+
+const a = document.querySelectorAll('a')
+
+
 
 
 for(let i = 0;i<a.length;i++)
 {
     a[i].addEventListener('click', function () {
         a[i].classList.toggle('active')
-        // a[i].setAttribute('class','active')
-
-
-        //  btn1.addEventListener('click',function () {
-        //      console.dir(a[i])
-        //     droite.appendChild(a[i])   
-        // })
-
-        // btn2.addEventListener('click',function () {
-        //     console.dir(a[i])
-        //     gauche.appendChild(a[i])   
-        // })
-
-
         
     })
 }
+
+
+
 
 
  btn1.addEventListener('click',function () {
@@ -55,4 +56,6 @@ for(let i = 0;i<a.length;i++)
                     gauche.appendChild(a)
                 }
             })
+           
         })
+

@@ -1,0 +1,99 @@
+body{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.demo{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 19rem;
+    background-color: darkblue ;
+    color: white;
+    height: 45vh;
+    
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.btn button{
+    width: 90%;
+    height: 7vh;
+}
+
+.copi{
+    border: 1px solid black;
+    height: 10vh;
+    background-color: aqua;
+}
+
+.copi button{
+   margin-left: 33rem;
+}
+
+.l1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    font-size: 170%;
+}
+
+.l1 input{
+    width: 10%;
+    margin-left: 8rem;
+}
+
+.l2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    font-size: 170%;
+}
+
+.l2 input{
+    
+    margin-left: 8rem;
+}
+
+.l3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    font-size: 170%;
+}
+
+.l3 input{
+    
+    margin-left: 8rem;
+}
+
+.l4{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    font-size: 170%;
+}
+
+.l4 input{
+    
+    margin-left: 13rem;
+}
+
+.l5{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    font-size: 170%;
+}
+
+.l5 input{
+    
+    margin-left: 5rem;
+}
