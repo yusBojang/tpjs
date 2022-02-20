@@ -10,36 +10,36 @@
 <body>
     <div class="demo">
        
-        <div class="copi">
-            <button>copie</button>
+        <div class="copi" id="copi">
+         
         </div>
 
         <div class="l1">
             <label for="a" id="a_text">Longueur du Password</label>
-            <input type="text">
+            <input type="text" id="longpassword">
             </div>
 
         <div class="l2">
         <label for="a" id="a_text">Contient des lettre Majuscule</label>
-        <input type="radio" name="answer" id="a" class="answer">
+        <input type="checkbox" name="answer" id="uppercase" class="answer">
         </div>
 
         <div class="l3">
             <label for="a" id="a_text">contient des lettre minuscule</label>
-            <input type="radio" name="answer" id="a" class="answer">
+            <input type="checkbox" name="answer" id="lowercase" class="answer">
         </div>
              
         <div class="l4">
             <label for="a" id="a_text">contient des nombre</label>
-            <input type="radio" name="answer" id="a" class="answer">
+            <input type="checkbox" name="answer" id="numbers" class="answer">
         </div>
 
         <div class="l5">
             <label for="a" id="a_text">contient des carracteres speciaux</label>
-            <input type="radio" name="answer" id="a" class="answer">
+            <input type="checkbox" name="answer" id="symbols" class="answer">
         </div>
         <div class="btn">
-        <button>GENERER LE MOT DE PASS</button>
+        <button id="generateButton" type="button" onclick="generateMdp()"> GENERER LE MOT DE PASS</button>
          </div>
     </div>
 </body>

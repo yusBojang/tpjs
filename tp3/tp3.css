@@ -16,6 +16,8 @@ body{
     
 }
 
+
+
 .btn {
     display: flex;
     justify-content: center;
@@ -32,11 +34,20 @@ body{
     border: 1px solid black;
     height: 10vh;
     background-color: aqua;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.copi button{
-   margin-left: 33rem;
+.btncopie button{
+
+   width: 110%;
+   
 }
+
+
 
 .l1{
     display: flex;
